@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-  Mousetrap.bind('command+enter', function(event) {
-    alert('doody');
+  Mousetrap.bindGlobal('command+enter', function(event) {
+    $text = $('textarea').val();
+    $('#live-preview').html($text);
   });
-
 });
