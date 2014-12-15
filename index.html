@@ -10,12 +10,11 @@
   <!--
     application.css is where you put your styles
   -->
-  <!-- <link rel="stylesheet" href="css/application.css"> -->
-
+  <!-- <link rel="stylesheet" href="css/stylesheet.css"> -->
+  <link rel="stylesheet" href="css/stylesheet.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="js/mousetrap.js"></script>
-  <script src="js/widget.js"></script>
   <script src="js/application.js"></script>
+  <script src="js/widget.js"></script>
 
   <title>MARKDOWN PARSER</title>
 </head>
@@ -23,9 +22,11 @@
 <h1>MARKDOWN PARSER</h1>
 
   <form>
-    <div><textarea placeholder="Enter Markdown to be parsed"></textarea></div>
+    <div id="source-id"><textarea placeholder="Enter Markdown to be parsed"></textarea></div>
     <div> <input type="submit"></div>
   </form>
+
+  <div id="live-preview">Result:</div>
 
 </body>
 </html>
