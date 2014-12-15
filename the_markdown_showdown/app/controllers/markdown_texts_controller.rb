@@ -1,6 +1,6 @@
 class MarkdownTextController < ApplicationController
 
   def index
-    redirect_to root_path
+    render_template :index
   end
 end
