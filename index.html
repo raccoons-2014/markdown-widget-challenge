@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Pat and Liam's Magic Markdown Parseltongue</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-  <form>
-    <textarea placeholder="Use Markdown and we will do the rest"></textarea>
-  </form>
-  <div id="live-preview">
-      &nbsp;
-    </div>
+  <head>
+    <title>Pat and Liam's Magic Markdown Parseltongue</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src='mousetrap.min.js'></script>
+    <script type="text/javascript" src='application.js'></script>
+    <script type="text/javascript" src='markdown_parser.js'></script>
+  </head>
 
-</body>
+  <body>
+    <form>
+      <textarea placeholder="Use Markdown and we will do the rest"></textarea>
+    </form>
+
+    <div id="live-preview"></div>
+
+  </body>
 </html>
