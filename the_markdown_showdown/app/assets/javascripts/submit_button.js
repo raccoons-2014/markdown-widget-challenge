@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(".showdown").keyup(function(){
-
+  $(".showdown").on('keyup', function(event){
+    $('.bang').html($());
   });
 });
