@@ -4,11 +4,8 @@
   width: 45%;
   max-width: 45%;
   height: 800px;
-  margin: 2%;
-}
-
-::-webkit-input-placeholder {
-   padding: 1%;
+  margin: 1%;
+  padding: 1%;
 }
 
 #live-preview {
