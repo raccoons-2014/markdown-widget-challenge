@@ -11,9 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141215172232) do
+ActiveRecord::Schema.define(version: 20141215201551) do
 
   create_table "markdown_texts", force: true do |t|
+    t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "texts", force: true do |t|
     t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
