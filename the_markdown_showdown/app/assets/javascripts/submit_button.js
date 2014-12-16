@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $(".showdown").on('keyup', function(event){
-    $('.bang').html($(event.target).val());
+    var text_area = $(event.target).val()
+    $('.bang').html(marked(text_area));
   });
 });
