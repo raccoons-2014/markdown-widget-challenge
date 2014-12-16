@@ -13,5 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require submit_button.js
+//= require marked.js
 //= require turbolinks
 //= require_tree .
