@@ -1,6 +1,13 @@
-$(document).ready(function(){
-  $(".showdown").on('keyup', function(event){
-    var text_area = $(event.target).val()
-    $('.bang').html(marked(text_area));
-  });
-});
+function markdownShowdown(textArea, markedArea ){
+  this.textArea = textArea;
+  this.markedArea = markedArea;
+  var that = this;
+
+  $(this.textArea).on('keyup', function(event){
+    console.log(this.markedArea);
+  })
+}
+
+$(function(){
+  new markdownShowdown(".showdown", ".bang");
+})
