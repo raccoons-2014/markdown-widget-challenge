@@ -6,6 +6,17 @@ h1{
 
 .showdown{
   position: absolute;
-  left: 50%;
+  left: 35%;
+  width: 200px;
+  height: 300px;
   margin-left: -100px;
+  border: 2px solid black;
+}
+
+.bang{
+  border: 2px solid brown;
+  width: 200px;
+  height: 300px;
+  right: 35%;
+  position: absolute;
 }
