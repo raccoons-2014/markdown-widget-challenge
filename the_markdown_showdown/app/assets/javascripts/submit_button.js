@@ -4,7 +4,8 @@ function markdownShowdown(textArea, markedArea ){
   var that = this;
 
   $(this.textArea).on('keyup', function(event){
-    console.log(this.markedArea);
+    var text = $(event.target).val();
+    $(markedArea).html(marked(text));
   })
 }
 
